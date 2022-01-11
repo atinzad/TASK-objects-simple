@@ -12,6 +12,30 @@
  */
 
 // add the movies variables here ....
+const movie1 = {
+    id: 1,
+    name: "COCO",
+    image: "https://images.moviesanywhere.com/43e488c14820c91d7f838509bf68b529/7f534183-4d42-49d6-ad99-960e4751d053.jpg?r=3x1&w=2400",
+    rating: 7
+}
+
+const movie2 = {
+    id: 2,
+    name: "fight Club",
+    image: "https://cdn.domestika.org/c_limit,dpr_1.0,f_auto,q_auto,w_820/v1576552355/content-items/003/521/446/FIGHTCLUB_FINAL-original.jpg?1576552355",
+    rating: 10
+}
+
+const movie3 = {
+    id: 3,
+    name: "Braveheart",
+    image: "https://whatsondisneyplus.com/wp-content/uploads/2021/03/braveheart.jpg",
+    rating: 10
+}
+
+console.log(movie1);
+console.log(movie2);
+console.log(movie3);
 
 /** Task 2:
  * Create an array `movies`
@@ -35,3 +59,5 @@
  * Copy paste the content of the array inside the json file
  * Make sure it's a json format.
  */
+
+const movies = [movie1, movie2, movie3];
