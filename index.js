@@ -54,10 +54,11 @@ console.log(movie3);
  * ]
  */
 
+ const movies = [movie1, movie2, movie3];
+
 /** TASK 3:
  * Create a new file call it `movies.json`
  * Copy paste the content of the array inside the json file
  * Make sure it's a json format.
  */
 
-const movies = [movie1, movie2, movie3];
